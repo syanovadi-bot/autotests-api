@@ -31,7 +31,7 @@ with client:
             if access_token:
                 headers = {"Authorization": f"Bearer {access_token}"}
                 update_data = {
-                    "email": get_random_email(),
+                    "email": fake.email(),
                     "lastName": "string3",
                     "firstName": "string3",
                     "middleName": "string3"

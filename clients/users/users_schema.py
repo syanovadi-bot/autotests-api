@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field, EmailStr, ConfigDict
-
+from tools.fakers import fake
 
 class UserSchema(BaseModel):
     """
@@ -20,11 +20,12 @@ class CreateUserRequestSchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True)
 
-    email: EmailStr
-    password: str
-    last_name: str = Field(alias="lastName")
-    first_name: str = Field(alias="firstName")
-    middle_name: str = Field(alias="middleName")
+    email: EmailStr = Field(default_factory=fake.email)
+    password: str = Field(default_factory=fake.password)
+    last_name: str = Field(default_factory=fake.last_name,alias="lastName")
+    first_name: str = Field(default_factory=fake.first_name, alias="firstName")
+    middle_name: str = Field(default_factory=fake.middle_name, alias="middleName")
+
 
 
 class CreateUserResponseSchema(BaseModel):
@@ -40,10 +41,13 @@ class UpdateUserRequestSchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True)
 
-    email: EmailStr | None
-    last_name: str | None = Field(alias="lastName")
-    first_name: str | None = Field(alias="firstName")
-    middle_name: str | None = Field(alias="middleName")
+    # Добавили генерацию случайного email
+    email: EmailStr | None = Field(default_factory=fake.email)
+    # Добавили генерацию случайной фамилии
+    last_name: str | None = Field(alias="lastName", default_factory=fake.last_name)
+    # Добавили генерацию случайного имени
+    first_name: str | None = Field(alias="firstName", default_factory=fake.first_name)
+    # Добавили генерацию случайного отчества
 
 
 class UpdateUserResponseSchema(BaseModel):
