@@ -32,5 +32,5 @@ def assert_user(actual: UserSchema, expected: UserSchema):
     assert_equal(actual.middle_name, expected.middle_name, "middle_name")
 
 
-def assert_get_users_response(get_user_response, create_user_response):
-    assert_user(get_user_response, create_user_response)
+def assert_get_user_response(get_user_response, create_user_response):
+    assert_user(get_user_response.user, create_user_response.user)
