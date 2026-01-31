@@ -6,7 +6,6 @@ from clients.files.files_schema import FileSchema
 from tools.fakers import fake
 
 
-# Добавили описание структуры курса
 class CourseSchema(BaseModel):
     """
     Описание структуры курса.
@@ -22,7 +21,21 @@ class CourseSchema(BaseModel):
     created_by_user: UserSchema  # Вложенная структура пользователя
 
 
-class GetCoursesRequestSchema(BaseModel):
+class GetCoursesResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на получение списка курсов.
+    """
+    courses: list[CourseSchema]
+
+
+class UpdateCourseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа обновления курса.
+    """
+    course: CourseSchema
+
+
+class GetCoursesQuerySchema(BaseModel):
     """
     Описание структуры запроса на получение списка курсов.
     """

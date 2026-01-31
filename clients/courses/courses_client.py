@@ -3,7 +3,7 @@ from httpx import Response
 from clients.api_client import APIClient
 from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
 
-from clients.courses.courses_schema import CourseSchema, GetCoursesRequestSchema, CreateCourseRequestSchema, \
+from clients.courses.courses_schema import CourseSchema, GetCoursesQuerySchema, CreateCourseRequestSchema, \
     UpdateCourseRequestSchema, CreateCourseResponseSchema
 
 
@@ -12,14 +12,14 @@ class CoursesClient(APIClient):
     Клиент для работы с /api/v1/courses
     """
 
-    def get_courses_api(self, query: GetCoursesRequestSchema) -> Response:
+    def get_courses_api(self, query: GetCoursesQuerySchema) -> Response:
         """
         Метод получения списка курсов.
 
         :param query: Словарь с userId.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get("/api/v1/courses", params=query)
+        return self.get("/api/v1/courses", params=query.model_dump(by_alias=True))
 
     def get_course_api(self, course_id: str) -> Response:
         """
