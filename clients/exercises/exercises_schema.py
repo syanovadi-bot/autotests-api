@@ -19,6 +19,13 @@ class Exercise(BaseModel):
     estimated_time: str
 
 
+class CreateExerciseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа создания задания
+    """
+    exercise: Exercise
+
+
 class GetExerciseResponseSchema(BaseModel):
     """Описание структуры ответа получения задания"""
     exercise: Exercise
