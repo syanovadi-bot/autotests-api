@@ -7,6 +7,8 @@ from clients.exercises.exercises_client import get_exercises_client, CreateExerc
 
 from tools.fakers import fake
 
+from config import settings
+
 users_client = get_public_users_client()
 
 create_user_request = CreateUserRequestSchema()
@@ -23,7 +25,7 @@ courses_client = get_courses_client(authentication_user)
 exercises_client = get_exercises_client(authentication_user)
 
 create_file_request = CreateFileRequestSchema(
-    upload_file="./testdata/files/image.png"
+    upload_file=settings.test_data.image_png_file
 )
 
 create_file_response = files_client.create_file(create_file_request)
