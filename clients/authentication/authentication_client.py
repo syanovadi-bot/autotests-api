@@ -6,6 +6,9 @@ from clients.public_http_builder import get_public_http_client
 
 import allure
 
+from tools.routes import APIRoutes
+
+
 class AuthenticationClient(APIClient):
     """
     Клиент для работы с /api/v1/authentication
@@ -20,8 +23,7 @@ class AuthenticationClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.post(
-            "/api/v1/authentication/login",
-            # Сериализуем модель в словарь с использованием alias
+            f"{APIRoutes.AUTHENTICATION}/login",
             json=request.model_dump(by_alias=True)
         )
 
@@ -34,8 +36,7 @@ class AuthenticationClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.post(
-            "/api/v1/authentication/refresh",
-            # Сериализуем модель в словарь с использованием alias
+            f"{APIRoutes.AUTHENTICATION}/refresh",
             json=request.model_dump(by_alias=True)
         )
 
