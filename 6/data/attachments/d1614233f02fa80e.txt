@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA5VDE0OjUxOjUwLjgwMzEyNSIsInVzZXJfaWQiOiIwODliYjAyYy1kOTY3LTRmZWEtOTc4NS1lZjE2MTBlMjliMzIifQ.S3gMQn3JKP8unR4ALBrKXIRG3-TZTg046Me6oD-GoY8' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Far stage vote today leader baby.","courseId":"b0b2860b-e927-4e6a-9578-a6565bc9bdf2","maxScore":92,"minScore":2,"orderIndex":88,"description":"Power bit hospital agency art share theory describe. Might street product skill person ok budget. Stock about economic write.","estimatedTime":"9 weeks"}'

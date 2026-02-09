@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA5VDE0OjUxOjUyLjY1Njc3NSIsInVzZXJfaWQiOiIwNmYwZGQ5My01NzJiLTQwMWMtODY3NS02NDRmNjYyZDIzZTUifQ.T251ny7DHN28mTccAgTnLr0FoxIe_RX0cYu2hqYbYlk' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whom those type interview science condition.","courseId":"c4a45fde-0fa3-45de-a25c-2a5d5a90ebf0","maxScore":100,"minScore":6,"orderIndex":42,"description":"Focus since lawyer speak crime. Thousand change every simple guy list car.\nHowever throw store region rise which PM opportunity. Hold send law pull clearly. Concern respond perform.","estimatedTime":"10 weeks"}'

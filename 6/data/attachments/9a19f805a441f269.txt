@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA5VDE0OjUxOjUwLjIxOTIwMiIsInVzZXJfaWQiOiIwOTcxMmU1NC03YzEwLTRkYTYtOWEwMC1jMDMzOTQ1YTJmZjYifQ.3olPF8AdZb0DkaI9R1j0XPkD2GTsyZuEw-5U7vfPAn0' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Gas edge kitchen couple.","maxScore":95,"minScore":1,"description":"Debate rest board Mrs push issue. Everything main help position. When evening page entire home much what.","estimatedTime":"6 weeks","previewFileId":"a9b4a65b-9529-4a8f-be11-9a5a7d73109b","createdByUserId":"09712e54-7c10-4da6-9a00-c033945a2ff6"}'
