@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA5VDEzOjQ0OjU2LjYxMTQ5NCIsInVzZXJfaWQiOiIwZmRhN2ExZi03MWI3LTQxNDQtOTQyNy03NDQwMzkwMDdmYjkifQ.NTg76cSjaqWLK4__2G3VivgmoMY2giYB72rRVj0H-Rc' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Help thus turn party local beautiful.","courseId":"ab453c84-cb2a-4916-9633-8aa27a5b4a30","maxScore":81,"minScore":22,"orderIndex":37,"description":"Option hit TV daughter the enjoy hold.\nFew father stage nature. Every many watch whatever population. Want theory country bar role.\nGun create benefit stop. Better tax most.","estimatedTime":"1 weeks"}'

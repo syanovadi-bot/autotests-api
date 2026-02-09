@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA5VDEzOjQ0OjU2Ljg4NDU1MiIsInVzZXJfaWQiOiI4NDM1MjdhMC0zMDFmLTRhNDctOTI3Mi02MTdmMjliOGNhMDUifQ.ZA8RAVLOmdIEfFzoFiza28JjR3ICYtKSD4aiCa_teBw' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Think author while size practice heart.","maxScore":55,"minScore":23,"description":"Seem against so any line memory for. Degree with knowledge pretty choose show seven.","estimatedTime":"4 weeks","previewFileId":"98eb4912-15e3-44e0-b7de-b758310f317a","createdByUserId":"843527a0-301f-4a47-9272-617f29b8ca05"}'
