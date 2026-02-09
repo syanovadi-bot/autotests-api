@@ -71,7 +71,7 @@ jobs:
           allure_history: allure-history  # Указываем каталог для истории отчётов Allure
 
       - name: Save allure report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: allure-results
           path: allure-results
@@ -82,7 +82,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Load allure report
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v7
         with:
           name: allure-results
           path: allure-results
