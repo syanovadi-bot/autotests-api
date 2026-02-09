@@ -54,7 +54,7 @@ jobs:
           pytest -m regression --alluredir=allure-results --numprocesses 2  # Запускаем тесты, отмеченные как "regression", генерируем результаты для Allure
 
       # 8. Шаг для получения истории отчётов Allure, если она существует
-      - name: Get Allure history
+      - name: Get  Allure history
         uses: actions/checkout@v6  # Опять клонируем репозиторий, чтобы получить историю отчётов
         if: always()  # Всегда выполняем, независимо от успеха или неудачи предыдущих шагов
         continue-on-error: true  # Если здесь возникнет ошибка, workflow всё равно продолжит выполнение
