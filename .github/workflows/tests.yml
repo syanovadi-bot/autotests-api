@@ -77,6 +77,13 @@ jobs:
           path: allure-results
           retention-days: 30
 
+      - name: Save allure history
+        uses: actions/upload-artifact@v6
+        with:
+          name: allure-history
+          path: allure-history
+          retention-days: 30
+
   publish-report:
     needs: run-tests
     runs-on: ubuntu-latest
@@ -87,7 +94,12 @@ jobs:
           name: allure-results
           path: allure-results
 
-      # 10. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
+      - name: Load allure history
+        uses: actions/download-artifact@v7
+        with:
+          name: allure-history
+          path: allure-history
+
       - name: Deploy report to Github  Pages
         if: always()  # Выполняется всегда, независимо от успеха других шагов
         uses: peaceiris/actions-gh-pages@v4  # Используем GitHub Action для публикации отчёта на GitHub Pages
