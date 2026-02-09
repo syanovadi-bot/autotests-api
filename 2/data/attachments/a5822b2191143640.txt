@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/courses/35c8a7bb-3e0a-4521-8458-be0a1cb30d47
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/35c8a7bb-3e0a-4521-8458-be0a1cb30d47
+INFO     BASE_ASSERTIONS:base.py:37 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:86 Check update course response
+INFO     BASE_ASSERTIONS:base.py:55 Check that "title" equals to Operation sort how stuff.
+INFO     BASE_ASSERTIONS:base.py:55 Check that "max_score" equals to 63
+INFO     BASE_ASSERTIONS:base.py:55 Check that "min_score" equals to 27
+INFO     BASE_ASSERTIONS:base.py:55 Check that "description" equals to Involve that model Mr along north picture stock. Sort both south room want also. Grow during imagine pick admit record.
+INFO     BASE_ASSERTIONS:base.py:55 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

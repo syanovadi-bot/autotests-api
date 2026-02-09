@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA5VDEzOjI0OjU1LjI3Mjc4OSIsInVzZXJfaWQiOiJmMTFjZGFmMy1iNWY4LTQ3NGUtOTk0ZS1iM2M5NTM4NzJhMTEifQ.dh2NyNWdtogMbqkbe5NO4eacbve8yC0yybZcN5rNzZc' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Significant size certainly machine conference.","maxScore":91,"minScore":2,"description":"Security to poor final late minute crime. Name though area professor during reality.\nFind receive feeling story start. Both food fly surface city.","estimatedTime":"10 weeks","previewFileId":"18269c42-3b47-46d6-9878-d619b4a87ccc","createdByUserId":"f11cdaf3-b5f8-474e-994e-b3c953872a11"}'

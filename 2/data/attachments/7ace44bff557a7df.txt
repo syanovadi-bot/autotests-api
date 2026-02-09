@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA5VDEzOjI0OjU4Ljg2NTY3MyIsInVzZXJfaWQiOiIzMDQ1YjMzZi04YzA1LTRlYmUtODYwNS03MTE0YmNlNGUyYjUifQ.qnMu_5g_QETypKOw2EQEZV1vJb0hIK5aGNOS9rL010Q' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Avoid act tree responsibility.","courseId":"b3b1f5eb-4768-43d4-a27f-b6a81cafbb30","maxScore":84,"minScore":17,"orderIndex":30,"description":"Though great not street. Final listen table Congress thus.\nTheory box follow arm occur them. Red its garden black. Fear evidence hot quality rather though room boy. Class instead kind line.","estimatedTime":"4 weeks"}'

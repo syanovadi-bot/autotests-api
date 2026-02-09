@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA5VDEzOjI0OjU2LjQ1ODM5MyIsInVzZXJfaWQiOiJjMDkwYmI1MS01ZGVhLTRmZDQtYWY0NS00OWM0OTllYjkxNGEifQ.0eqyzDGxcN2agjmIDSpWXSav0HgFaSbNAjTRsrEtvvg' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Senior significant everybody story special.","courseId":"00e8a0a0-07f8-481e-8098-6d9227c4ab9a","maxScore":68,"minScore":28,"orderIndex":13,"description":"Ability nor special various another smile red. Result feel peace group expect whatever.\nShe network simple. About enter everybody serious political could people.","estimatedTime":"8 weeks"}'

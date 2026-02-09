@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA5VDEzOjI0OjU4Ljg2NTY3MyIsInVzZXJfaWQiOiIzMDQ1YjMzZi04YzA1LTRlYmUtODYwNS03MTE0YmNlNGUyYjUifQ.qnMu_5g_QETypKOw2EQEZV1vJb0hIK5aGNOS9rL010Q' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Decision ability statement system professor also.","maxScore":71,"minScore":6,"description":"Forward difficult anything deep stand mind others writer. Check glass sign science analysis meet good.\nTheory television price know. Onto improve else pull against theory.","estimatedTime":"4 weeks","previewFileId":"f966e31d-3f4d-40c8-8bbe-6c1835671825","createdByUserId":"3045b33f-8c05-4ebe-8605-7114bce4e2b5"}'

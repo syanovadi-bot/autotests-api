@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA5VDEzOjI0OjU3LjkyNzcyNiIsInVzZXJfaWQiOiI2MzNhNGM0Mi01MDhiLTQzNWUtOTg5OC0yNjI3MzA1NTNiNzAifQ.hV1rSdNCeR2QRo60SlDpdZljD2mqW4VLpdqMhMgXUf0' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Space clear lot star nation late recent relationship.","maxScore":71,"minScore":11,"description":"Less simple teacher either gun score focus.\nWar effort why spend organization. Drive firm economy whom. Scientist number everybody pull degree night.","estimatedTime":"10 weeks","previewFileId":"1acd39bb-2e34-4351-a696-b39243dd51cb","createdByUserId":"633a4c42-508b-435e-9898-262730553b70"}'
