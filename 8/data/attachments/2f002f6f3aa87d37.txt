@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTEzVDEzOjMxOjQ2LjE1MjU4OSIsInVzZXJfaWQiOiIwOWMyYWY4My1iZmFhLTQ5MWYtYjI2Mi0zMDM1YTg3YzI5NWUifQ.VQco-zj3_nz8tkUaVRI1ewfomY3APw1APx78wK9aSXU' \
+  -H 'content-length: 439' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Within describe bad onto product start approach draw.","maxScore":93,"minScore":28,"description":"Although meeting deal officer. Society memory as. Low surface name forward player loss resource.\nLetter ask role door door manager message. Reflect trouble catch technology maybe experience.","estimatedTime":"5 weeks","previewFileId":"560c34dd-4503-441c-8728-4aabb94c0449","createdByUserId":"09c2af83-bfaa-491f-b262-3035a87c295e"}'

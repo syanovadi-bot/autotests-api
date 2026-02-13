@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises?courseId=39b4a1d8-db1e-4cf5-b9aa-6bb37c1189d3
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=39b4a1d8-db1e-4cf5-b9aa-6bb37c1189d3
+INFO     BASE_ASSERTIONS:base.py:37 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:108 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:20 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:24 Check exercise
+INFO     BASE_ASSERTIONS:base.py:55 Check that "id" equals to 37b19329-5ae8-42cb-9c2f-45be70d8f254
+INFO     BASE_ASSERTIONS:base.py:55 Check that "course_id" equals to 39b4a1d8-db1e-4cf5-b9aa-6bb37c1189d3
+INFO     BASE_ASSERTIONS:base.py:55 Check that "max_score" equals to 70
+INFO     BASE_ASSERTIONS:base.py:55 Check that "min_score" equals to 11
+INFO     BASE_ASSERTIONS:base.py:55 Check that "order_index" equals to 73
+INFO     BASE_ASSERTIONS:base.py:55 Check that "description" equals to Father together design save southern both. Method name much security information reveal bar.
+Plan beat open couple. Face question against. You there interesting after.
+INFO     BASE_ASSERTIONS:base.py:55 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

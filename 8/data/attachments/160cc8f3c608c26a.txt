@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTEzVDEzOjMxOjQ4LjU5NDYxMCIsInVzZXJfaWQiOiJkOGFhMmY4My00ZDFhLTQ0YWUtYjZiZi1kMzM3ODZlOGU4ZjQifQ.wEoegsdAwPmB6oyZx6rjGcCsh5VlB98bEALbDitOgUM' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Describe run study.","maxScore":73,"minScore":14,"description":"Throughout where tell tell. Travel agency upon might too market explain. Grow wall deal those main people. Grow reflect continue kitchen morning main camera.","estimatedTime":"4 weeks","previewFileId":"ff3bd5b1-7283-4936-afb7-e99da7fd2200","createdByUserId":"d8aa2f83-4d1a-44ae-b6bf-d33786e8e8f4"}'

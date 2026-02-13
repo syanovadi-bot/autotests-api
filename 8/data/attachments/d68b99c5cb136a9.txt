@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTEzVDEzOjMxOjQ4LjAwOTcwMSIsInVzZXJfaWQiOiJhY2Q0Mjk3NC1hNzg0LTRiNWEtOGJkNy02ZmU0YmNlOGFjMDQifQ.TELd76wk9zm82qsVdAL5C0z770R51fCVzvgiVlW3-hY' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Expert among first carry.","maxScore":80,"minScore":15,"description":"Too few and reduce. Best back stage discussion anyone put house land.\nRisk threat impact matter here strategy. Call result in summer point save population really. Media doctor near base full.","estimatedTime":"7 weeks","previewFileId":"aef6e2f8-51cb-4243-b471-d85e85ac4039","createdByUserId":"acd42974-a784-4b5a-8bd7-6fe4bce8ac04"}'

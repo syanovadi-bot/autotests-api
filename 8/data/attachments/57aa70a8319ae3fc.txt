@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTEzVDEzOjMxOjQ3LjM3MTYyOCIsInVzZXJfaWQiOiJjZjBlOGRmMi1mZDY2LTQ5ODMtODA4NS1mYjQ1MTMxOTVlOWQifQ.iA-JwqM1PLAo2BkUpy6IuqyD1SqCBESNV2jFZ7oRZmM' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Allow less look stop yourself many.","maxScore":99,"minScore":20,"description":"Be popular sense success. Data simple key court six. Again very age nothing.","estimatedTime":"1 weeks","previewFileId":"a7998d9d-6557-4c78-bbff-c821869745d7","createdByUserId":"cf0e8df2-fd66-4983-8085-fb4513195e9d"}'

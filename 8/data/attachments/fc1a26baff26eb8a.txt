@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTEzVDEzOjMxOjQ2Ljc3Nzc4MCIsInVzZXJfaWQiOiJjOWVmMjAzNS0wOGYyLTQ0YzUtYTdkNy01N2VmOTg0OTBmMDIifQ.Eysy_3HCMZCmm0FyxoVCGj4lOW4gy2bKUQhnD0lBfLI' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Include senior school quickly bill thousand.","maxScore":99,"minScore":7,"description":"Offer party remember worry meeting far. Police majority quickly interest assume window second. Song adult possible brother.","estimatedTime":"8 weeks","previewFileId":"34e7c6f6-a848-4b4b-b3a9-0202db729df7","createdByUserId":"c9ef2035-08f2-44c5-a7d7-57ef98490f02"}'

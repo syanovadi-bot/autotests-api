@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/courses/53207e40-96f4-4aa5-ae2c-532ba017a103
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/53207e40-96f4-4aa5-ae2c-532ba017a103
+INFO     BASE_ASSERTIONS:base.py:37 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:86 Check update course response
+INFO     BASE_ASSERTIONS:base.py:55 Check that "title" equals to Effort middle sometimes statement force.
+INFO     BASE_ASSERTIONS:base.py:55 Check that "max_score" equals to 54
+INFO     BASE_ASSERTIONS:base.py:55 Check that "min_score" equals to 9
+INFO     BASE_ASSERTIONS:base.py:55 Check that "description" equals to Because agent local fine last federal cold. Rate statement system close. Ready source compare capital.
+Plan safe its near lawyer draw least bed. Heavy nothing pattern present south rule.
+INFO     BASE_ASSERTIONS:base.py:55 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

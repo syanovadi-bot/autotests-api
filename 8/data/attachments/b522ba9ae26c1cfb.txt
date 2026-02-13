@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:37 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:23 Check create course response
+INFO     BASE_ASSERTIONS:base.py:55 Check that "title" equals to Clear onto word television both.
+INFO     BASE_ASSERTIONS:base.py:55 Check that "max_score" equals to 57
+INFO     BASE_ASSERTIONS:base.py:55 Check that "min_score" equals to 27
+INFO     BASE_ASSERTIONS:base.py:55 Check that "description" equals to Particularly marriage tax market understand body range door. Again trip house capital.
+INFO     BASE_ASSERTIONS:base.py:55 Check that "estimated_time" equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:55 Check that "preview_file_id" equals to e8795c5e-11ce-4e3c-adf3-5fa5e32731fc
+INFO     BASE_ASSERTIONS:base.py:55 Check that "created_by_user_id" equals to a4566b42-09b5-4ca6-9773-79c7450f6cb3
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

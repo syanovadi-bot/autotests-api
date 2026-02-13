@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTEzVDEzOjMxOjQ1LjU2NjcxMCIsInVzZXJfaWQiOiI1NzYzN2E4Yi1kOGQ3LTQ0NWMtYjNjZi0yYTY1NmM5ZjU5NWUifQ.bAxYy5F92YNGH0wFKpwwEt9j8vNRUdcYu1F_-NF2MHQ' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Provide sea enjoy live.","maxScore":79,"minScore":17,"description":"Instead major building campaign throughout. Office ask form.\nDetermine assume fish wrong interesting feeling travel. Prepare high medical look important traditional.","estimatedTime":"9 weeks","previewFileId":"f66d2ddd-66b9-4342-8f0c-2fa519e921e8","createdByUserId":"57637a8b-d8d7-445c-b3cf-2a656c9f595e"}'

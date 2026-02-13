@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/53207e40-96f4-4aa5-ae2c-532ba017a103' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTEzVDEzOjMxOjQ1LjU2NjcxMCIsInVzZXJfaWQiOiI1NzYzN2E4Yi1kOGQ3LTQ0NWMtYjNjZi0yYTY1NmM5ZjU5NWUifQ.bAxYy5F92YNGH0wFKpwwEt9j8vNRUdcYu1F_-NF2MHQ' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Effort middle sometimes statement force.","maxScore":54,"minScore":9,"description":"Because agent local fine last federal cold. Rate statement system close. Ready source compare capital.\nPlan safe its near lawyer draw least bed. Heavy nothing pattern present south rule.","estimatedTime":"9 weeks"}'

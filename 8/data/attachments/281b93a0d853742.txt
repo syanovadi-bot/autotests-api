@@ -1,0 +1,33 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/courses?userId=bfbfa46f-02ee-4b90-9ec5-23792f5bcd54
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=bfbfa46f-02ee-4b90-9ec5-23792f5bcd54
+INFO     BASE_ASSERTIONS:base.py:37 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:67 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:20 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:42 Check course
+INFO     BASE_ASSERTIONS:base.py:55 Check that "id" equals to 52a30d92-2b40-43e9-8dba-071e63b2b6fa
+INFO     BASE_ASSERTIONS:base.py:55 Check that "title" equals to Dark direction sort which wonder middle.
+INFO     BASE_ASSERTIONS:base.py:55 Check that "max_score" equals to 75
+INFO     BASE_ASSERTIONS:base.py:55 Check that "min_score" equals to 13
+INFO     BASE_ASSERTIONS:base.py:55 Check that "description" equals to Approach race occur whole guess reach. Bring operation quickly think learn end at. Unit because tough consumer. West section deep win stand its.
+INFO     BASE_ASSERTIONS:base.py:55 Check that "estimated_time" equals to 3 weeks
+INFO     FILES_ASSERTIONS:files.py:106 Check file
+INFO     BASE_ASSERTIONS:base.py:55 Check that "id" equals to eb4fc9ca-5733-490b-bcab-53aedeba0fdb
+INFO     BASE_ASSERTIONS:base.py:55 Check that "url" equals to http://localhost:8000/static/tests/0e31f14e-429f-432d-8c6d-f76614697cae.png
+INFO     BASE_ASSERTIONS:base.py:55 Check that "filename" equals to 0e31f14e-429f-432d-8c6d-f76614697cae.png
+INFO     BASE_ASSERTIONS:base.py:55 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:37 Check user
+INFO     BASE_ASSERTIONS:base.py:55 Check that "id" equals to bfbfa46f-02ee-4b90-9ec5-23792f5bcd54
+INFO     BASE_ASSERTIONS:base.py:55 Check that "email" equals to stevensonvictoria@example.org
+INFO     BASE_ASSERTIONS:base.py:55 Check that "last_name" equals to Perkins
+INFO     BASE_ASSERTIONS:base.py:55 Check that "first_name" equals to Sonya
+INFO     BASE_ASSERTIONS:base.py:55 Check that "middle_name" equals to Jill
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema
